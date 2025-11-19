@@ -1,0 +1,370 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Mimis-Farm-1.20.1",
+      "name": "미미네팜 시즌2",
+      "description": "Minecraft 1.20.1 (Fabric v0.17.3)",
+      "icon": "https://github.com/mchdistro/Mimis-Farm/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "aassdd889900.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>17",
+        "suggestedMajor": 22,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 8192,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1917330,
+            "MD5": "54e368d0ccdcb9109a63f048e26526b0",
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/repo/lib/net/fabricmc/fabric-loader/0.17.3/fabric-loader-0.17.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.17.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "373d81ebeb304f2c79f40c0fe79f90b8",
+                "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/repo/versions/1.20.1-fabric-0.17.3/1.20.1-fabric-0.17.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.init.platform.fabric.proxy:armourers_workshop:3.2.4-beta@jar",
+          "name": "Armourer's Workshop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6196603,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/armourersworkshop-fabric-1.20.1-3.2.4-beta.jar",
+            "MD5": "05f434835ba068d7a40ff4d2554066ec"
+          }
+        },
+        {
+          "id": "net.cocoonmc.runtime:cocoon_rt:2.0.1@jar",
+          "name": "Cocoon Runtime Library",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 381379,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/cocoon-rt-2.0.1.jar",
+            "MD5": "cf969132ca54976946b5e0f6dec178f1"
+          }
+        },
+        {
+          "id": "nora.nora:enterkeymod:1.0-SNAPSHOT@jar",
+          "name": "EnterKeyMod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7060,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/EnterKeyMod-1.0-SNAPSHOT.jar",
+            "MD5": "eefcb2b66630fd5f2855722c6b398bb2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.6+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107873,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/fabric-api-0.92.6+1.20.1.jar",
+            "MD5": "3483560775f416a4c759535b898165a5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2726899,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.116@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1399759,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/jei-1.20.1-fabric-15.20.0.116.jar",
+            "MD5": "245d7c8a946e56f69b669e5db1a5ae88"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209178,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.3-fabric.jar",
+            "MD5": "0daacf8f13dd33450a970601cf21d627"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.0+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 564695,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/koreanpatch-fabric-1.9.0+mc1.20.1.jar",
+            "MD5": "04dfca134af2ff3f4bb58358bf25ad9f"
+          }
+        },
+        {
+          "id": "net.teujaem:missuljjeongui:1.0-SNAPSHOT@jar",
+          "name": "MissuljjeongUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21521,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/missuljjeongUI-1.0-SNAPSHOT.jar",
+            "MD5": "e9a6549cd41659f2314c82a5dccd9201"
+          }
+        },
+        {
+          "id": "generated.fabricmod:obsidianui:fabric-0.2.3+mc1.20.1@jar",
+          "name": "ObsidianUI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 208930,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/ObsidianUI-fabric-0.2.3+mc1.20.1.jar",
+            "MD5": "4880f9919f533593b3417e56e1c51390"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.6@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12201776,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/plasmovoice-fabric-1.20.1-2.1.6.jar",
+            "MD5": "2d941bdf4fb04f311ffb24c0d49bc6cf"
+          }
+        },
+        {
+          "id": "org.thinkingstudio:ryoamiclights:0.2.2+mc1.20.1@jar",
+          "name": "RyoamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 417470,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/RyoamicLights-fabric-0.2.2+mc1.20.1.jar",
+            "MD5": "e315448931c70e21d2ce8b6de4466c1a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sj_core:2.0.1.11@jar",
+          "name": "SJ-Core",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49080465,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/SJ-Core-2.0.1.11.jar",
+            "MD5": "93b3d7085836527ab073118033e94b5d"
+          }
+        },
+        {
+          "id": "net.sjhub.sjdonation:sj_donation:3.1.1-SNAPSHOT@jar",
+          "name": "SJ-Donation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3657427,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/SJ-Donation-3.1.1-SNAPSHOT.jar",
+            "MD5": "54c68ac501a71d977e410cbedb66b26d"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          }
+        },
+        {
+          "id": "kr.shihyeon:tabnametag:0.1.0+mc1.20@jar",
+          "name": "TabNameTag",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11030,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/tabnametag-fabric-0.1.0+mc1.20.jar",
+            "MD5": "efbe28182061f96223430c741d2fc260"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.6-MC1.20.1@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 155225,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/fabricmods/required/WI-Zoom-1.6-MC1.20.1.jar",
+            "MD5": "402e43eac5ceb006c20b19928f880fda"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 285,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7024,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "BetterVanillaBuildingV3.5.zip",
+          "name": "BetterVanillaBuildingV3.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 4378250,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/files/resourcepacks/BetterVanillaBuildingV3.5.zip",
+            "MD5": "3cb643173998e05eefa13cb5a5ccab20",
+            "path": "resourcepacks/BetterVanillaBuildingV3.5.zip"
+          }
+        },
+        {
+          "id": "generated.zip",
+          "name": "generated.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3429308,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/files/resourcepacks/generated.zip",
+            "MD5": "0a41f91fe79d1ea8e7c16c7c7062986e",
+            "path": "resourcepacks/generated.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.6.1.zip",
+          "name": "ComplementaryUnbound_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500699,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.6.1.zip",
+            "MD5": "3f83f81df2ad4608d830017425b45bac",
+            "path": "shaderpacks/ComplementaryUnbound_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.51 Medium.zip",
+          "name": "Sildur's Vibrant Shaders v1.51 Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142241,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/Mimis-Farm-1.20.1/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.51%20Medium.zip",
+            "MD5": "f2ac25e1dd3afb18344d18593b41e905",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.51 Medium.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
