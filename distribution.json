@@ -221,6 +221,16 @@
           }
         },
         {
+          "id": "net.teujaem.nrDonation:nr-donation:1.2.2-fabric+mc1.20.1@jar",
+          "name": "NR-Donation",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5507837,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v1-1.20.1/fabricmods/required/NR-Donation-1.2.2-fabric+mc1.20.1.jar",
+            "MD5": "23fb4ca98d6e66bd7e7e2910e6e76d9c"
+          }
+        },
+        {
           "id": "generated.fabricmod:obsidianui:fabric-0.2.3+mc1.20.1@jar",
           "name": "ObsidianUI",
           "type": "FabricMod",
@@ -248,26 +258,6 @@
             "size": 417470,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v1-1.20.1/fabricmods/required/RyoamicLights-fabric-0.2.2+mc1.20.1.jar",
             "MD5": "e315448931c70e21d2ce8b6de4466c1a"
-          }
-        },
-        {
-          "id": "generated.fabricmod:sj_core:2.0.1.11@jar",
-          "name": "SJ-Core",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 49080465,
-            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v1-1.20.1/fabricmods/required/SJ-Core-2.0.1.11.jar",
-            "MD5": "93b3d7085836527ab073118033e94b5d"
-          }
-        },
-        {
-          "id": "net.sjhub.sjdonation:sj_donation:3.1.1-SNAPSHOT@jar",
-          "name": "SJ-Donation",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 3657427,
-            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v1-1.20.1/fabricmods/required/SJ-Donation-3.1.1-SNAPSHOT.jar",
-            "MD5": "54c68ac501a71d977e410cbedb66b26d"
           }
         },
         {
