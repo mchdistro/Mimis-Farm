@@ -221,13 +221,13 @@
           }
         },
         {
-          "id": "net.teujaem.nrDonation:nr-donation:1.2.2-fabric+mc1.20.1@jar",
+          "id": "net.teujaem.nrDonation:nr-donation:1.2.3-fabric+mc1.20.1@jar",
           "name": "NR-Donation",
           "type": "FabricMod",
           "artifact": {
-            "size": 5507837,
-            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v1-1.20.1/fabricmods/required/NR-Donation-1.2.2-fabric+mc1.20.1.jar",
-            "MD5": "23fb4ca98d6e66bd7e7e2910e6e76d9c"
+            "size": 5827867,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v1-1.20.1/fabricmods/required/NR-Donation-1.2.3-fabric+mc1.20.1.jar",
+            "MD5": "70ac73d528b45b9e66b57933eff99e1e"
           }
         },
         {
@@ -305,9 +305,9 @@
           "name": "NRDonationConfig.yml",
           "type": "File",
           "artifact": {
-            "size": 283,
+            "size": 269,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v1-1.20.1/files/config/NRDonationConfig.yml",
-            "MD5": "f3d365b27f3365d14732eb49dba80848",
+            "MD5": "1a92895b334672aad26756802fb71724",
             "path": "config/NRDonationConfig.yml"
           }
         },
