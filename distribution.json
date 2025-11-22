@@ -24,7 +24,7 @@
       "autoconnect": true,
       "javaOptions": {
         "supported": "=>21",
-        "suggestedMajor": 22,
+        "suggestedMajor": 21,
         "platformOptions": [
           {
             "platform": "win32",
@@ -221,13 +221,13 @@
           }
         },
         {
-          "id": "net.teujaem.nrDonation:nr-donation:1.2.3-fabric+mc1.20.1@jar",
+          "id": "net.teujaem.nrDonation:nr-donation:1.2.6-fabric+mc1.20.1@jar",
           "name": "NR-Donation",
           "type": "FabricMod",
           "artifact": {
-            "size": 5827867,
-            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v1-1.20.1/fabricmods/required/NR-Donation-1.2.3-fabric+mc1.20.1.jar",
-            "MD5": "70ac73d528b45b9e66b57933eff99e1e"
+            "size": 5828254,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v1-1.20.1/fabricmods/required/NR-Donation-1.2.6-fabric+mc1.20.1.jar",
+            "MD5": "183cf9e5665015743bdbd1db6a64a241"
           }
         },
         {
