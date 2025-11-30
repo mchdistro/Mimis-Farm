@@ -348,9 +348,9 @@
           "name": "generated.zip",
           "type": "File",
           "artifact": {
-            "size": 3444752,
+            "size": 3434170,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v2.1-1.20.1/files/resourcepacks/generated.zip",
-            "MD5": "be6583afc722854ed0dd041a08543f91",
+            "MD5": "eb5061b24a8267cefd583dc635c4c25b",
             "path": "resourcepacks/generated.zip"
           }
         },
