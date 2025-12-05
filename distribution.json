@@ -211,13 +211,13 @@
           }
         },
         {
-          "id": "net.teujaem:missuljjeongui:1.1@jar",
+          "id": "net.teujaem:missuljjeongui:1.2@jar",
           "name": "MissuljjeongUI",
           "type": "FabricMod",
           "artifact": {
-            "size": 21363,
-            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v2.2-1.20.1/fabricmods/required/missuljjeongUI-1.1.jar",
-            "MD5": "a734464823664e3e759de78096d4b755"
+            "size": 21445,
+            "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v2.2-1.20.1/fabricmods/required/missuljjeongUI-1.2.jar",
+            "MD5": "36894ee442271e085fb75d6ebd9a3c37"
           }
         },
         {
