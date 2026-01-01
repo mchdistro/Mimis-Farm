@@ -305,9 +305,9 @@
           "name": "NRDonationConfig.yml",
           "type": "File",
           "artifact": {
-            "size": 269,
+            "size": 261,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v2.2-1.20.1/files/config/NRDonationConfig.yml",
-            "MD5": "1a92895b334672aad26756802fb71724",
+            "MD5": "352f82d07dfd15877beafc4eb3db32d4",
             "path": "config/NRDonationConfig.yml"
           }
         },
