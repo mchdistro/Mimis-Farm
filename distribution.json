@@ -285,7 +285,7 @@
           "name": "client.toml",
           "type": "File",
           "artifact": {
-            "size": 1402,
+            "size": 1459,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v3_260531_2-1.20.1/files/config/plasmovoice/client.toml",
             "path": "config/plasmovoice/client.toml"
           }
@@ -295,7 +295,7 @@
           "name": "journeymap.core.config",
           "type": "File",
           "artifact": {
-            "size": 1871,
+            "size": 1934,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v3_260531_2-1.20.1/files/journeymap/config/5.10/journeymap.core.config",
             "path": "journeymap/config/5.10/journeymap.core.config"
           }
@@ -305,7 +305,7 @@
           "name": "journeymap.fullmap.config",
           "type": "File",
           "artifact": {
-            "size": 869,
+            "size": 899,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v3_260531_2-1.20.1/files/journeymap/config/5.10/journeymap.fullmap.config",
             "path": "journeymap/config/5.10/journeymap.fullmap.config"
           }
@@ -315,7 +315,7 @@
           "name": "journeymap.minimap.config",
           "type": "File",
           "artifact": {
-            "size": 1674,
+            "size": 1730,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v3_260531_2-1.20.1/files/journeymap/config/5.10/journeymap.minimap.config",
             "path": "journeymap/config/5.10/journeymap.minimap.config"
           }
@@ -325,7 +325,7 @@
           "name": "journeymap.minimap2.config",
           "type": "File",
           "artifact": {
-            "size": 1666,
+            "size": 1722,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v3_260531_2-1.20.1/files/journeymap/config/5.10/journeymap.minimap2.config",
             "path": "journeymap/config/5.10/journeymap.minimap2.config"
           }
@@ -335,7 +335,7 @@
           "name": "journeymap.topo.config",
           "type": "File",
           "artifact": {
-            "size": 964,
+            "size": 971,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v3_260531_2-1.20.1/files/journeymap/config/5.10/journeymap.topo.config",
             "path": "journeymap/config/5.10/journeymap.topo.config"
           }
@@ -345,7 +345,7 @@
           "name": "journeymap.waypoint.config",
           "type": "File",
           "artifact": {
-            "size": 896,
+            "size": 924,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v3_260531_2-1.20.1/files/journeymap/config/5.10/journeymap.waypoint.config",
             "path": "journeymap/config/5.10/journeymap.waypoint.config"
           }
@@ -355,7 +355,7 @@
           "name": "journeymap.webmap.config",
           "type": "File",
           "artifact": {
-            "size": 155,
+            "size": 159,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v3_260531_2-1.20.1/files/journeymap/config/5.10/journeymap.webmap.config",
             "path": "journeymap/config/5.10/journeymap.webmap.config"
           }
@@ -375,9 +375,9 @@
           "name": "generated.zip",
           "type": "File",
           "artifact": {
-            "size": 13683713,
+            "size": 13693259,
             "url": "https://github.com/mchdistro/Mimis-Farm/raw/main/servers/v3_260531_2-1.20.1/files/resourcepacks/generated.zip",
-            "MD5": "85f1f2c6d9dd78e4be38924e19c44d9a",
+            "MD5": "1579c31d6defa8679a5a705fc6fc3f9e",
             "path": "resourcepacks/generated.zip"
           }
         },
